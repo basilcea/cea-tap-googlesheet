@@ -7,6 +7,13 @@ Built with the [Meltano Tap SDK](https://sdk.meltano.com) for Singer Taps.
 ## Installation
 
 
+### Initialize your Development Environment
+
+```bash
+pipx install poetry
+poetry install
+```
+### Installing Extractor
 ```bash
 pipx install tap-cea-googlesheet
 ```
@@ -73,14 +80,6 @@ tap-cea-googlesheet --config CONFIG --discover > ./catalog.json
 ```
 
 ## Developer Resources
-
-
-### Initialize your Development Environment
-
-```bash
-pipx install poetry
-poetry install
-```
 
 ### Create and Run Tests
 

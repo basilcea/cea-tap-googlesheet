@@ -6,7 +6,9 @@ plugins:
   - name: tap-cea-googlesheet
     namespace: tap_cea_googlesheet
     pip_url: git+https://github.com/basilcea/cea-tap-googlesheet.git
-    executable: tap-cea-googlesheet
+    
+    # TODO: update this path with full path
+    executable: ./tap-cea-googlesheet.sh
     capabilities:
     - catalog
     - discover

@@ -57,9 +57,9 @@ After creating your projects and a `Desktop App` credential
   'https://www.googleapis.com/auth/drive.file'
   'https://www.googleapis.com/auth/spreadsheets.readonly
 ```
+- On the OAuth Consent Screen (if your app is not published), add test users emails.
 - Download your credentials file which has your client secret and client id or copy both
 - Set them in the  `.env` file for use by the extractor.
-
 
 ## Usage
 
@@ -118,6 +118,7 @@ Next, install Meltano (if you haven't already) and any needed plugins:
 # Install meltano
 pipx install meltano
 # Initialize meltano within this directory
+TODO: update extractor executable property with full path in meltano.yml
 cd tap-cea-googlesheet
 
 meltano install

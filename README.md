@@ -119,8 +119,10 @@ Next, install Meltano (if you haven't already) and any needed plugins:
 pipx install meltano
 # Initialize meltano within this directory
 cd tap-cea-googlesheet
-meltano upgrade
+
 meltano install
+
+meltano upgrade
 ```
 
 Now you can test and orchestrate using Meltano:

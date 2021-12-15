@@ -1,0 +1,23 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: 4ccefdd4-748f-44c1-852b-f2d1a8b5b321
+plugins:
+  extractors:
+  - name: tap-cea-googlesheet
+    namespace: tap_cea_googlesheet
+    pip_url: git+https://github.com/basilcea/cea-tap-googlesheet.git@master
+    executable: tap-cea-googlesheet
+    capabilities:
+    - catalog
+    - discover
+    settings:
+    - name: client_id
+    - name: client_secret
+    - name: spreadsheet_id
+    - name: sheet_ranges
+    config:
+      start_date: '2010-01-01T00:00:00Z'
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl

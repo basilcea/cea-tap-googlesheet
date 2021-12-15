@@ -1,4 +1,4 @@
-version: 1
+version: 19
 extractors:
 - name: tap-cea-googlesheet
   namespace: tap_cea_googlesheet

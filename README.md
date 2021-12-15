@@ -22,7 +22,7 @@ poetry install
 
 ### Accepted Config Options
 
-Create an `.env` file and add the following configuration in the format
+Create an `.env` file in the root folder and add the following configuration in the format
 
 ```bash
 export TAP_CEA_GOOGLESHEET_CLIENT_ID=<your client -id>

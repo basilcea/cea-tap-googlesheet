@@ -1,4 +1,4 @@
-# tap-cea-googlesheet
+# Tap-cea-googlesheet
 
 `tap-cea-googlesheet` is a Singer tap for googlesheet.
 

@@ -32,8 +32,6 @@ The following configuration are used by  `tap-cea-googlesheet`:
 #### Optional Config - Sheet_ranges
 in your `meltano.yml`file,  in the `config` section,  specify your sheet ranges, an array of ranges to be read in the format SHEETNAME!A1:B2 where A1:B2 is the range choice. Adding it makes the extraction faster . If a sheet does not have the first rows, then it is required to specify the range to be read for that sheet.
 
-- [ ] `Developer TODO:` Provide a list of config options accepted by the tap.
-
 A full list of supported settings and capabilities for this
 tap is available by running:
 

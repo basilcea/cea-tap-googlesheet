@@ -12,6 +12,4 @@ extractors:
   - name: client_secret
   - name: spreadsheet_id
   - name: sheet_ranges
-  config:
-    start_date: '2010-01-01T00:00:00Z'
 

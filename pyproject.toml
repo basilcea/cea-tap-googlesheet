@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tap-cea-googlesheet"
-version = "0.0.1"
+version = "0.0.2"
 description = "`tap-cea-googlesheet` is a Singer tap for googlesheet, built with the Meltano SDK for Singer Taps."
 authors = ["Basil"]
 keywords = [

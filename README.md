@@ -6,6 +6,8 @@ Built with the [Meltano Tap SDK](https://sdk.meltano.com) for Singer Taps.
 
 ## Installation
 
+git clone [this repo](https://github.com/basilcea/cea-tap-googlesheet.git)
+
 ```bash
 pip3 install pix
 
@@ -13,7 +15,6 @@ pipx ensurepath
 
 pipx install poetry
 
-git clone [this repo](https://github.com/basilcea/cea-tap-googlesheet.git)
 
 poetry install
 ```

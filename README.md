@@ -117,7 +117,7 @@ poetry run tap-googlesheet --config <your config file path>.json --discover
 
 # Print Output
 
-poetry run tap-googlesheet  --config ./config.json > out.jsonl
+poetry run tap-googlesheet  --config <your config file path>.json > out.jsonl
 
 ```
 

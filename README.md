@@ -6,16 +6,16 @@ Built with the [Meltano Tap SDK](https://sdk.meltano.com) for Singer Taps.
 
 ## Installation
 
-
-### Initialize your Development Environment
-
 ```bash
+pip3 install pix
+
+pipx ensurepath
+
 pipx install poetry
+
+git clone [this repo](https://github.com/basilcea/cea-tap-googlesheet.git)
+
 poetry install
-```
-### Installing Extractor
-```bash
-pipx install tap-cea-googlesheet
 ```
 
 ## Configuration
@@ -39,12 +39,6 @@ The following configuration are used by  `tap-cea-googlesheet`:
 #### Optional Config - Sheet_ranges
 in your `meltano.yml`file,  in the `config` section,  specify your sheet ranges, an array of ranges to be read in the format SHEETNAME!A1:B2 where A1:B2 is the range choice. Adding it makes the extraction faster . If a sheet does not have the first rows, then it is required to specify the range to be read for that sheet.
 
-A full list of supported settings and capabilities for this
-tap is available by running:
-
-```bash
-tap-cea-googlesheet --about
-```
 
 ### Source Authentication and Authorization
 
@@ -71,13 +65,6 @@ After creating your projects and a `Desktop App` credential
 
 You can easily run `tap-cea-googlesheet` by itself or in a pipeline using [Meltano](https://meltano.com/).
 
-### Executing the Tap Directly
-
-```bash
-tap-cea-googlesheet --version
-tap-cea-googlesheet --help
-tap-cea-googlesheet --config CONFIG --discover > ./catalog.json
-```
 
 ## Developer Resources
 

@@ -2,7 +2,7 @@ version: 1
 extractors:
 - name: tap-cea-googlesheet
   namespace: tap_cea_googlesheet
-  pip_url: git+https://github.com/basilcea/cea-tap-googlesheet.git@master
+  pip_url: git+https://github.com/basilcea/cea-tap-googlesheet.git
   executable: tap-cea-googlesheet
   capabilities:
   - catalog

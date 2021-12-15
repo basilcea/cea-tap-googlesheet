@@ -5,7 +5,7 @@ plugins:
   extractors:
   - name: tap-cea-googlesheet
     namespace: tap_cea_googlesheet
-    pip_url: git+https://github.com/basilcea/cea-tap-googlesheet.git@master
+    pip_url: git+https://github.com/basilcea/cea-tap-googlesheet.git
     executable: tap-cea-googlesheet
     capabilities:
     - catalog
@@ -15,8 +15,6 @@ plugins:
     - name: client_secret
     - name: spreadsheet_id
     - name: sheet_ranges
-    config:
-      start_date: '2010-01-01T00:00:00Z'
   loaders:
   - name: target-jsonl
     variant: andyh1203
